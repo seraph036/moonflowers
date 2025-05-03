@@ -1,0 +1,155 @@
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=56,56,56
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.4
+ContrastEffect=1
+Enable=
+IntensityAmount=0.1
+IntensityEffect=2
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=112,111,110
+ColorAmount=0.025
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=2
+Enable=false
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=189,195,199
+BackgroundNormal=30,30,32
+DecorationFocus=220,35,50
+DecorationHover=91,90,91
+ForegroundActive=61,174,233
+ForegroundInactive=127,140,141
+ForegroundLink=100,100,100
+ForegroundNegative=207,65,82
+ForegroundNeutral=246,116,0
+ForegroundNormal=170,170,172
+ForegroundPositive=85,255,255
+ForegroundVisited=127,140,141
+
+[Colors:Complementary]
+BackgroundAlternate=59,64,69
+BackgroundNormal=49,54,59
+DecorationFocus=220,35,50
+DecorationHover=220,35,50
+ForegroundActive=246,116,0
+ForegroundInactive=175,176,179
+ForegroundLink=61,174,230
+ForegroundNegative=237,21,21
+ForegroundNeutral=201,206,59
+ForegroundNormal=218,218,220
+ForegroundPositive=17,209,22
+ForegroundVisited=61,174,230
+
+[Colors:Selection]
+BackgroundAlternate=29,153,243
+BackgroundNormal=220,35,50
+DecorationFocus=220,35,50
+DecorationHover=91,90,91
+ForegroundActive=252,252,252
+ForegroundInactive=195,195,197
+ForegroundLink=200,200,200
+ForegroundNegative=207,65,82
+ForegroundNeutral=246,116,0
+ForegroundNormal=32,31,32
+ForegroundPositive=85,255,255
+ForegroundVisited=189,195,199
+
+[Colors:Tooltip]
+BackgroundAlternate=77,77,77
+BackgroundNormal=30,30,32
+DecorationFocus=220,35,50
+DecorationHover=91,90,91
+ForegroundActive=61,174,233
+ForegroundInactive=189,195,199
+ForegroundLink=100,100,100
+ForegroundNegative=207,65,82
+ForegroundNeutral=246,116,0
+ForegroundNormal=170,170,172
+ForegroundPositive=85,255,255
+ForegroundVisited=127,140,141
+
+[Colors:View]
+BackgroundAlternate=30,30,32
+BackgroundNormal=32,32,32
+DecorationFocus=220,35,50
+DecorationHover=91,90,91
+ForegroundActive=61,174,233
+ForegroundInactive=127,140,141
+ForegroundLink=100,100,100
+ForegroundNegative=207,65,82
+ForegroundNeutral=246,116,0
+ForegroundNormal=228,228,228
+ForegroundPositive=85,255,255
+ForegroundVisited=127,140,141
+
+[Colors:Window]
+BackgroundAlternate=189,195,199
+BackgroundNormal=32,31,32
+DecorationFocus=220,35,50
+DecorationHover=91,90,91
+ForegroundActive=61,174,233
+ForegroundInactive=127,140,141
+ForegroundLink=100,100,100
+ForegroundNegative=207,65,82
+ForegroundNeutral=246,116,0
+ForegroundNormal=214,214,214
+ForegroundPositive=85,255,255
+ForegroundVisited=127,140,141
+
+[DirSelect Dialog]
+DirSelectDialog Size=958,1007
+History Items[$e]=file:$HOME/WS,file:///HDD/MUSIC,file:///HDD/VIDEO,file:///HDD/Music,file:///SSD,file:///HDD/Switch,file:///HDD/Music/,file:///HDD,http://music/Katatonia/,http://music/,file:///HDD/Soulseek/comp,file:///HDD/Soulseek/incomp,file:$HOME/Downloads/soulseek,file:$HOME/Downloads,file:$HOME/.local/share/wallpapers,http://ssd/,file:$HOME/SSD,file:$HOME/HD,file:$HOME/HD/SteamLibrary
+
+[General]
+ColorSchemeHash=26d2a2a0edcab15d3bc0d82fb4c619f0b1f10550
+XftHintStyle=hintslight
+XftSubPixel=rgb
+font=Ubuntu Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=Ubuntu Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=Ubuntu Nerd Font,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=Ubuntu Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[Icons]
+Theme=Papirus-Dark
+
+[KDE]
+LookAndFeelPackage=org.kde.breezedark.desktop
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=true
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+Speedbar Width=140
+View Style=DetailTree
+
+[WM]
+activeBackground=220,35,50
+activeBlend=255,255,255
+activeFont=Ubuntu Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+activeForeground=31,31,31
+frame=220,35,50
+inactiveBackground=30,30,32
+inactiveBlend=154,169,200
+inactiveForeground=120,120,122
+inactiveFrame=35,35,35

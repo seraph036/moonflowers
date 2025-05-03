@@ -1,0 +1,33 @@
+[2cc474e5-b218-4bfd-98af-0e75fc6d39c2]
+Description=max konsole
+maximizehoriz=true
+maximizehorizrule=1
+maximizevert=true
+maximizevertrule=1
+wmclass=konsole
+wmclassmatch=2
+
+[4028321f-68c2-4c43-84e1-7b44f2a45103]
+Description=send lutris to last virt desktop
+desktops=ec1246f7-9b50-48b6-b789-0c4954814dbb
+desktopsrule=3
+wmclass=lutris
+wmclassmatch=2
+
+[6503f930-eed7-4e02-a669-42bd17ca8673]
+Description=send windows apps to last desktop
+desktops=ec1246f7-9b50-48b6-b789-0c4954814dbb
+desktopsrule=3
+wmclass=exe
+wmclassmatch=2
+
+[General]
+count=4
+rules=6503f930-eed7-4e02-a669-42bd17ca8673,4028321f-68c2-4c43-84e1-7b44f2a45103,d7141cff-68e0-49f7-a82c-fab0cff4b2fe,2cc474e5-b218-4bfd-98af-0e75fc6d39c2
+
+[d7141cff-68e0-49f7-a82c-fab0cff4b2fe]
+Description=send steam to last virt desktop
+desktops=ec1246f7-9b50-48b6-b789-0c4954814dbb
+desktopsrule=2
+wmclass=steam
+wmclassmatch=2

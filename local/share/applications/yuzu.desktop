@@ -1,0 +1,19 @@
+[Desktop Entry]
+Categories=Game
+Comment[en_GB]=Open the Yuzu Emulator
+Comment=Open the Yuzu Emulator
+Exec=/home/alexandre/.local/bin/yuzu-mainline.AppImage
+GenericName[en_GB]=Nintendo Switch Emulator
+GenericName=Nintendo Switch Emulator
+Icon=yuzu-ea
+MimeType=
+Name[en_GB]=Yuzu
+Name=Yuzu
+Path=
+StartupNotify=true
+StartupWMClass=Yuzu
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

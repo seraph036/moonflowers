@@ -1,0 +1,106 @@
+- hosts: localhost
+  name: Arch Linux Configuration Playbook
+  tasks:
+    - name: Remove possible conflicts
+      package:
+        name:
+          - power-profiles-daemon
+        state: absent
+    - name: Install essential packages
+      package:
+        name:
+          - plasma
+          - plasma-wayland-session
+          - ly
+          - papirus-icon-theme
+          - konsole
+          - dolphin
+          - dolphin-plugins
+          - neovim
+          - python-pynvim
+          - wl-clipboard
+          - code
+          - libreoffice-fresh
+          - libreoffice-fresh-pt-br
+          - hunspell-en_gb
+          - wireplumber
+          - pipewire
+          - pipewire-pulse
+          - pipewire-jack
+          - alsa-utils
+          - pipewire-alsa
+          - playerctl
+          - firefox
+          - cups
+          - hplip
+          - steam
+          - lutris
+          - wine
+          - lib32-mesa
+          - vulkan-radeon
+          - lib32-vulkan-radeon
+          - vulkan-icd-loader
+          - lib32-vulkan-icd-loader
+          - libva-mesa-driver
+          - libvdpau-va-gl
+          - libvdpau
+          - phonon-qt6-vlc
+          - gstreamer-vaapi
+          - gst-plugins-good
+          - gst-plugins-bad
+          - gst-plugins-base
+          - gst-plugins-pipewire
+          - gst-plugins-va
+          - lib32-gst-plugins-good
+          - lib32-gst-plugins-base
+          - elisa
+          - aisleriot
+          - fish
+          - spectacle
+          - firewalld
+          - kate
+          - kdeconnect
+          - kcalc
+          - kfind
+          - kid3
+          - qbittorrent
+          - vlc
+          - rsync
+          - pacman-contrib
+          - ark
+          - tlp
+          - tlp-rdw
+          - git
+          - gimp
+          - krita
+          - java-runtime-common
+          - jre-openjdk
+          - partitionmanager
+        state: present
+    - name: Enable systemd services
+        command:
+          - systemctl enable --now tlp
+          - systemctl enable ly
+          - systemctl mask systemd-rfkill.service
+          - systemctl mask systemd-rfkill.socket
+          - systemctl --user enable --now pipewire
+          - systemctl --user enable --now pipewire-pulse
+          - systemctl --user enable --now wireplumber
+    - name: Clone AUR helper
+      command: git clone https://aur.archlinux.org/paru-bin
+      become: yes
+      become_user: alexandre
+      args:
+        chdir: /home/alexandre/Downloads
+    - name: Makepkg for paru
+      command: makepkg -si --noconfirm
+      become: yes
+      become_user: alexandre
+      args:
+        chdir: /home/alexandre/Downloads/paru-bin
+    - name: Install AUR packages
+      command: paru -S onlyoffice-bin tlpui upscayl-appimage lime3ds-appimage
+      become: yes
+      become_user: alexandre
+      args:
+        chdir: /home/alexandre

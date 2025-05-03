@@ -1,0 +1,11 @@
+### --- Arch Linux --- ###
+
+kernel="$(uname -r)";White='\033[0;97m';NC='\033[0m';printf " ${White}%s ${NC}" $kernel
+# set the colour in command output as #dc2332
+upd=$(checkupdates | wc -l); White='\033[0;97m'; NC='\033[0m'; printf " ${White}$upd${NC} "
+
+### --- Debian --- ###
+
+kernel="$(uname -r)";White='\033[0;97m';NC='\033[0m';printf " ${White}%s ${NC}" $kernel
+upd=$(apt list --upgradeable 2>/dev/null | cut -d/ -f1 | grep -v Listing | wc -l); White='\033[0;97m'; NC='\033[0m'; printf " ${White}$upd${NC} "
+

@@ -1,0 +1,30 @@
+(function() {
+  const colors = {
+    oddfish: {
+      base: "#201f20",
+      blue: "#5ab1b4",
+      lavender: "#f99d51",
+      mantle: "191819",
+      rosewater: "#dc2332",
+      text: "#d6d6d6",
+    }
+  };
+  const flavour = window.prompt("Choose a theme:", "oddfish");
+  const blueLinks = confirm("Use blue links?");
+
+  const ct = colors[flavour];
+  const theme = [
+    `21=${ct.mantle}`,
+    `7=${ct.base}`,
+    `8=${ct.text}`,
+    `9=${blueLinks ? ct.blue : ct.rosewater}`,
+    `aa=${ct.lavender}`,
+    `ae=${flavour == "oddfish" ? -1 : ct.base}`,
+    `j=${ct.mantle}`,
+    `x=${blueLinks ? ct.blue : ct.rosewater}`,
+  ];
+
+  for (const item of theme) {
+    document.cookie = `${item}; max-age=126144000; samesite=lax; secure`;
+  }
+})();

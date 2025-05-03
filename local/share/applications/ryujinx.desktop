@@ -1,0 +1,22 @@
+[Desktop Entry]
+Categories=Game
+Comment[en_GB]=A Nintendo Switch Emulator
+Comment=A Nintendo Switch Emulator
+Exec=/home/alexandre/.local/bin/ryujinx-x64.AppImage
+GenericName[en_GB]=Nintendo Switch Emulator
+GenericName=Nintendo Switch Emulator
+Icon=ryujinx
+Keywords=Switch;Nintendo;Emulator;
+MimeType=
+Name[en_GB]=Ryujinx
+Name=Ryujinx
+Path=
+PrefersNonDefaultGPU=true
+StartupNotify=true
+StartupWMClass=Ryujinx
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-KDE-SubstituteUID=false
+X-KDE-Username=

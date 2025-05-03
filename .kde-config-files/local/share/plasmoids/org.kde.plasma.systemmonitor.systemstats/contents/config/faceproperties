@@ -1,0 +1,11 @@
+[Config]
+chartFace=org.kde.ksysguard.textonly
+highPrioritySensorIds=[]
+lowPrioritySensorIds=["cpu/all/usage","cpu/all/averageFrequency","cpu/all/averageTemperature","gpu/gpu1/usage","gpu/gpu1/coreFrequency","gpu/gpu1/temperature","gpu/gpu1/power","memory/physical/used","memory/physical/usedPercent","network/enp8s0/download","network/enp8s0/upload"]
+totalSensors=[]
+
+[FaceConfig]
+groupByTotal=false
+
+[SensorColors]
+cpu/cpu\requency=38,66,249

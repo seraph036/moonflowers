@@ -1,0 +1,19 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Categories=Game
+Comment[en_GB]=Play Minecraft
+Comment=Play Minecraft
+Exec=java -jar /home/alexandre/.local/bin/LegacyLauncher_legacy.jar
+GenericName[en_GB]=Minecraft
+GenericName=Minecraft
+Icon=minecraft
+Name[en_GB]=LegacyLauncher
+Name=LegacyLauncher
+Path=
+#StartupNotify=true
+StartupWMClass=Minecraft
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -78,10 +78,6 @@ source $ZSH/oh-my-zsh.sh
 
 eval "$(starship init zsh)"
 
-printf "\n"
-fastfetch --cpu-temp --gpu-temp --gpu-detection-method vulkan
-printf "\n"
-
 cd ~
 
 export PATH="$HOME/.config/emacs/bin:$HOME/.cargo/bin:$HOME/.local/bin:$PATH"
@@ -133,7 +129,7 @@ ZSH_HIGHLIGHT_STYLES[double-hyphen-option]='fg=#44ce9b'
 
 ZSH_HIGHLIGHT_STYLES[single-hyphen-option]='fg=#f4a6f7'
 
-ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=#ee3966'
+ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=#FFFFFF'
 
 ZSH_HIGHLIGHT_STYLES[command]='fg=#dc2332'
 

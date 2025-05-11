@@ -54,6 +54,7 @@
         {
             "type": "cpu",
             "key": "",
+            "format": "{name} ({cores-physical}C/{cores-logical}T) ({temperature})",
             "temp-green": 50,
             "temp-yellow": 75
         },

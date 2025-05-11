@@ -92,8 +92,8 @@ $character\
 ################################################################################
 
 [character]
-success_symbol = '[ λ](bold blue) '
-error_symbol = '[󰍴 ε](bold red) '
+success_symbol = '[ λ](bold #dc2332) '
+error_symbol = '[󰍴 ε](bold #dc2332) '
 
 [custom.git_server]
 #disabled = true

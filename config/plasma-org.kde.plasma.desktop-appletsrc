@@ -72,7 +72,7 @@ network/enp8s0/download=Net Download
 network/enp8s0/upload=Net Upload
 
 [Containments][1][Applets][38][Configuration][Sensors]
-lowPrioritySensorIds=["cpu/all/usage","cpu/all/averageFrequency","cpu/all/averageTemperature","gpu/gpu1/usage","gpu/gpu1/coreFrequency","gpu/gpu1/temperature","gpu/gpu1/power","memory/physical/used","memory/physical/usedPercent","network/enp8s0/download","network/enp8s0/upload"]
+lowPrioritySensorIds=["cpu/all/usage","cpu/all/averageFrequency","cpu/all/averageTemperature","gpu/gpu1/usage","gpu/gpu1/coreFrequency","gpu/gpu1/temperature","memory/physical/used","memory/physical/usedPercent","network/enp8s0/download","network/enp8s0/upload"]
 totalSensors=[]
 
 [Containments][1][Applets][41]

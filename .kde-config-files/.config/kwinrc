@@ -1,3 +1,6 @@
+[Activities][LastVirtualDesktop]
+208c567a-ac4e-4d8c-a8d4-b0a7e2d4d894=64fc9a38-9c49-43d9-9a23-143c435f3673
+
 [Desktops]
 Id_1=342a4571-1a6a-4066-ac36-b9f1e5002941
 Id_2=4b7798e7-db4f-4bfe-8245-70ea9b56140e
@@ -25,6 +28,10 @@ Mode=Location
 cubeEnabled=true
 krohnkiteEnabled=true
 
+[Script-krohnkite]
+ignoreClass=krunner,yakuake,spectacle,kded5,xwaylandvideobridge,plasmashell,ksplashqml,org.kde.plasmashell,org.kde.polkit-kde-authentication-agent-1,org.kde.kruler,pkhex.exe
+ignoreVDesktop=5
+
 [Tiling]
 padding=4
 
@@ -37,9 +44,14 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][d3052ed6-e4f1-551e-8555-bd66e9b62548]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][d717d8ca-39ea-5c82-ba75-0358be2d3ac1]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Xwayland]
 Scale=1
 
 [org.kde.kdecoration2]
 ButtonsOnLeft=XAIS
 ButtonsOnRight=H
+library=org.kde.breeze
+theme=Breeze

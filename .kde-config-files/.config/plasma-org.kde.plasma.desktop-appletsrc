@@ -6,8 +6,8 @@ RightButton;NoModifier=org.kde.contextmenu
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
-ItemGeometries-1920x1080=Applet-32:1680,16,224,128,0;Applet-38:1680,160,224,336,0;Applet-46:1664,832,256,192,0;Applet-41:1680,512,224,304,0;
-ItemGeometriesHorizontal=Applet-32:1680,16,224,128,0;Applet-38:1680,160,224,336,0;Applet-46:1664,832,256,192,0;Applet-41:1680,512,224,304,0;
+ItemGeometries-1920x1080=Applet-32:1680,16,224,128,0;Applet-38:1680,160,224,336,0;Applet-41:1680,512,224,304,0;Applet-46:1664,832,256,192,0;
+ItemGeometriesHorizontal=Applet-32:1680,16,224,128,0;Applet-38:1680,160,224,336,0;Applet-41:1680,512,224,304,0;Applet-46:1664,832,256,192,0;
 activityId=208c567a-ac4e-4d8c-a8d4-b0a7e2d4d894
 formfactor=0
 immutability=1
@@ -92,9 +92,9 @@ DialogWidth=720
 
 [Containments][1][Applets][41][Configuration][SensorColors]
 disk/.*/usedPercent=249,175,38
-disk/38add93a-6ccb-442e-8196-f0991a38e042/usedPercent=38,249,70
-disk/6a18f532-d410-4dc3-8dd1-1d4ecec4b6f4/usedPercent=249,175,38
-disk/772a3f55-222e-48e2-8cae-7eb5ea1b8d3f/usedPercent=249,38,217
+disk/38add93a-6ccb-442e-8196-f0991a38e042/usedPercent=216,8,98
+disk/6a18f532-d410-4dc3-8dd1-1d4ecec4b6f4/usedPercent=220,35,50
+disk/772a3f55-222e-48e2-8cae-7eb5ea1b8d3f/usedPercent=255,153,170
 disk/all/usedPercent=38,112,249
 
 [Containments][1][Applets][41][Configuration][SensorLabels]
@@ -146,18 +146,18 @@ highPrioritySensorIds=["cpu/cpu11/usage"]
 
 [Containments][1][Applets][46][Configuration][SensorColors]
 cpu/cpu.*/usage=249,175,38
-cpu/cpu0/usage=249,175,38
-cpu/cpu1/usage=217,249,38
-cpu/cpu10/usage=249,38,112
-cpu/cpu11/usage=249,70,38
-cpu/cpu2/usage=112,249,38
-cpu/cpu3/usage=38,249,70
-cpu/cpu4/usage=38,249,175
-cpu/cpu5/usage=38,217,249
-cpu/cpu6/usage=38,112,249
-cpu/cpu7/usage=70,38,249
-cpu/cpu8/usage=175,38,249
-cpu/cpu9/usage=249,38,217
+cpu/cpu0/usage=136,17,119
+cpu/cpu1/usage=170,51,85
+cpu/cpu10/usage=51,102,187
+cpu/cpu11/usage=102,51,153
+cpu/cpu2/usage=204,102,102
+cpu/cpu3/usage=238,153,68
+cpu/cpu4/usage=238,221,0
+cpu/cpu5/usage=153,221,85
+cpu/cpu6/usage=68,221,136
+cpu/cpu7/usage=34,204,187
+cpu/cpu8/usage=0,187,204
+cpu/cpu9/usage=0,153,204
 
 [Containments][1][Applets][46][Configuration][Sensors]
 highPrioritySensorIds=["cpu/cpu.*/usage"]
@@ -174,17 +174,18 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][General]
+locked=true
 positions={"1920x1080":[]}
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=/home/alexandre/.local/share/wallpapers/oddfish-rose.png
-PreviewImage=/home/alexandre/.local/share/wallpapers/oddfish-rose.png
+Image=/home/alexandre/Documents/moonnight.png
+PreviewImage=/home/alexandre/.local/share/wallpapers/oddwave2.png
 SlidePaths=/home/alexandre/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][1][Wallpaper][org.kde.slideshow][General]
-Image=file:///home/alexandre/.local/share/wallpapers/oddsystem.png
+Image=file:///home/alexandre/moonflowers/local/share/wallpapers/moonnight.png
 SlideInterval=240
-SlidePaths=/home/alexandre/.local/share/wallpapers/
+SlidePaths=/home/alexandre/moonflowers/local/share/wallpapers/
 UncheckedSlides=/home/alexandre/.local/share/wallpapers/oddfriend.png,/home/alexandre/.local/share/wallpapers/oddplanet.png,/home/alexandre/.local/share/wallpapers/oddfish.png
 
 [Containments][2]
@@ -201,6 +202,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][21][Configuration]
+PreloadWeight=65
 popupHeight=450
 popupWidth=490
 
@@ -226,8 +228,8 @@ DialogWidth=800
 
 [Containments][2][Applets][29][Configuration][General]
 command=upd=$(checkupdates | wc -l); White='\\033[0;97m'; NC='\\033[0m'; printf " ${White}$upd${NC} "\n
-interval=1000000
-textColor=#f9af26
+interval=10000
+textColor=#dc2332
 
 [Containments][2][Applets][3]
 immutability=1
@@ -244,7 +246,7 @@ DialogWidth=720
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
-icon=/home/alexandre/.local/share/theme-icons/oddarch.ico
+icon=/home/alexandre/moonflowers/local/share/theme-icons/moonarch.png
 switchCategoryOnHover=true
 systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
@@ -259,7 +261,7 @@ DialogWidth=800
 [Containments][2][Applets][30][Configuration][General]
 command=kernel="$(uname -r)";White='\\033[0;97m';NC='\\033[0m';printf " ${White}%s ${NC}" $kernel
 interval=10000000
-textColor=#f9af26
+textColor=#dc2332
 
 [Containments][2][Applets][4]
 immutability=1
@@ -321,6 +323,9 @@ plugin=org.kde.plasma.keyboardindicator
 immutability=1
 plugin=org.kde.kdeconnect
 
+[Containments][8][Applets][13][Configuration]
+PreloadWeight=65
+
 [Containments][8][Applets][14]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
@@ -353,6 +358,9 @@ migrated=true
 immutability=1
 plugin=org.kde.plasma.vault
 
+[Containments][8][Applets][18][Configuration]
+PreloadWeight=55
+
 [Containments][8][Applets][19]
 immutability=1
 plugin=org.kde.plasma.manage-inputmethod
@@ -369,7 +377,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][8][Applets][24]
 immutability=1
@@ -390,14 +398,19 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][8][Applets][26][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][8][Applets][9]
 immutability=1
 plugin=org.kde.kscreen
 
+[Containments][8][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][8][General]
 extraItems=org.kde.kscreen,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.printmanager,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications
+hiddenItems=corectrl,org.kde.plasma.networkmanagement
 knownItems=org.kde.kscreen,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.printmanager,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications
 
 [Containments1Appletsts][31][Configuration][General]

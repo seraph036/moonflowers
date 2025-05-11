@@ -1,3 +1,5 @@
+Install the "Command Output" widget from the KDE Store, then add the following command to the widget in the panel, depending on your distro:
+
 ### --- Arch Linux --- ###
 
 kernel="$(uname -r)";White='\033[0;97m';NC='\033[0m';printf " ${White}%s ${NC}" $kernel

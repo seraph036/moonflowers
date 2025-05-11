@@ -1,7 +1,7 @@
 append to ~/.config/kdeglobals:
-frame=249,175,38
+frame=220,35,50
 inactiveFrame=35,35,35
 
 or run the command:
-echo "frame=249,175,38
+echo "frame=220,35,50
 inactiveFrame=35,35,35" | tee -a ~/.config/kdeglobals

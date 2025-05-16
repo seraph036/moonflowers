@@ -6,7 +6,7 @@ sudo cp -r ./* /usr/share/icons/Papirus
 III: Install the Papirus-Folders script
 
 Use this script to set color of the folders, for example:
-papirus-folders -t Papirus-Dark -c oddfish
+papirus-folders -t Papirus-Dark -c moonflowers
 
 IV: Now select Papirus (or one of its variations) as the icon theme in your DE/WM's settings
 
